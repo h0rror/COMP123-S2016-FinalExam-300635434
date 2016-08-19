@@ -181,6 +181,9 @@ namespace COMP123_S2016_FinalExam
 
             // Step 5 - Show the next form
             raceAndClassForm.Show();
+
         }
+
     }
 }
+
