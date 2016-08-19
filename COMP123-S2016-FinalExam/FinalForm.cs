@@ -17,6 +17,8 @@ namespace COMP123_S2016_FinalExam
         public FinalForm()
         {
             InitializeComponent();
+           
+
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,6 +39,21 @@ namespace COMP123_S2016_FinalExam
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void StrengthTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FinalForm_Load(object sender, EventArgs e)
+        {
+            StrengthTextBox.Text = Program.character.Strength;
+            DexterityTextBox.Text = Program.character.Dexterity;
+            ConstitutionTextBox.Text = Program.character.Constitution;
+            IntelligenceTextBox.Text = Program.character.Intelligence;
+            WisdomTextBox.Text = Program.character.Wisdom;
+            CharismaTextBox.Text = Program.character.Charisma;
         }
     }
 }

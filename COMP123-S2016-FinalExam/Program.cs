@@ -4,6 +4,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/*
+ * Final Exam - Character Generator
+ * Nikola Savin
+ * COMP 123
+ * 300635434
+ * Summer 2016
+ */
 namespace COMP123_S2016_FinalExam
 {
     public static class Program
@@ -19,8 +27,8 @@ namespace COMP123_S2016_FinalExam
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SplashForm());
-            Application.Run(new GenerateNameForm());
+            Application.Run(new SplashForm());                // Opens the SplashForm when application starts.
+            Application.Run(new GenerateNameForm());          // Opens the GenerateNameForm after the splash form is closed
 
         }
     }

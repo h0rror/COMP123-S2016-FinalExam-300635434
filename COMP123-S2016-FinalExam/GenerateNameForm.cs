@@ -65,9 +65,9 @@ namespace COMP123_S2016_FinalExam
 
         private void NextButton_Click(object sender, EventArgs e)
         {
-            this.Close();                                             //This closes the GenerateNameForm on mouse click of the 
-            AbilityGeneratorForm form3 = new AbilityGeneratorForm();  //Next button, and opens the AbilityGeneratorForm.
-            form3.Show();
+            this.Hide();                                             //This closes the GenerateNameForm on mouse click of the 
+            AbilityGeneratorForm abilitygeneratorform = new AbilityGeneratorForm();  //Next button, and opens the AbilityGeneratorForm.
+            abilitygeneratorform.Show();
         }
     }
  }

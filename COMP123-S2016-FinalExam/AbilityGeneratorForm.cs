@@ -184,6 +184,10 @@ namespace COMP123_S2016_FinalExam
 
         }
 
+        private void StrengthTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
